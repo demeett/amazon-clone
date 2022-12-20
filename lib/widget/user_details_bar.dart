@@ -1,10 +1,12 @@
+import 'package:amazon_clone/model/user_details_model.dart';
 import 'package:amazon_clone/utils/color_themes.dart';
 import 'package:amazon_clone/utils/contants.dart';
 import 'package:flutter/material.dart';
 
 class UserDetailsBar extends StatelessWidget {
   final double offset;
-  const UserDetailsBar({super.key, required this.offset});
+  final UserDetailsModel userDetails;
+  const UserDetailsBar({super.key, required this.offset, required this.userDetails});
 
   @override
   Widget build(BuildContext context) {
@@ -29,10 +31,10 @@ class UserDetailsBar extends StatelessWidget {
                 color: Colors.grey[900],
               ),
             ),
-            const Expanded(
+            Expanded(
               child: Text(
-                "Deliver to Demet Demir- Addresssssss ssssssssssssssssssssssssssssssssssssssssssssssss",
-                style: TextStyle(),
+                "Deliver to ${userDetails.name}- ${userDetails.address}",
+                style: const TextStyle(),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),

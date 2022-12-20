@@ -1,3 +1,4 @@
+import 'package:amazon_clone/model/user_details_model.dart';
 import 'package:amazon_clone/utils/contants.dart';
 import 'package:amazon_clone/widget/banner_ad_widget.dart';
 import 'package:amazon_clone/widget/categories_horizontal_list_view_bar.dart';
@@ -87,7 +88,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
-          Positioned(top: -offset / 5, child: UserDetailsBar(offset: offset))
+          Positioned(
+              top: -offset / 5,
+              child: UserDetailsBar(
+                offset: offset,
+                userDetails: UserDetailsModel(name: "Demet Demir", address: "Çankaya /ANKARA"),
+              ))
         ],
       ),
     );

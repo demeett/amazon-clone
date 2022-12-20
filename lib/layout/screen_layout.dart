@@ -1,3 +1,4 @@
+import 'package:amazon_clone/screens/account_screen.dart';
 import 'package:amazon_clone/screens/home_screen.dart';
 import 'package:amazon_clone/utils/color_themes.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +38,7 @@ class _ScreenLayoutState extends State<ScreenLayout> {
               child: HomeScreen(),
             ),
             Center(
-              child: Text("Home Screen"),
+              child: AccountScreen(),
             ),
             Center(
               child: Text("Cart Screen"),
