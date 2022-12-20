@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742898791793",
+    "project_id": "clone-5b386",
+    "storage_bucket": "clone-5b386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742898791793:android:a8582512da4487a542f2d0",
+        "android_client_info": {
+          "package_name": "demetdemir.app.amazon_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742898791793-odgtqtm979aau80u02909gjenlqmimmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd720y6-Scincrdwm3R1sCN9zVz7o0A4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742898791793-odgtqtm979aau80u02909gjenlqmimmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
